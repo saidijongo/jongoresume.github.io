@@ -1,4 +1,4 @@
-style.txt Who has access Not shared System properties Type Text Size 7 KB Storage used 7 KB Location portfolio website Owner me Modified 5:51 AM by me Opened 5:56 AM by me Created 5:51 AM with ZIP Extractor Add a description Viewers can download @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
 :root {
     --yellow: #f9ca24;
 }
@@ -208,7 +208,7 @@ header .navbar ul li a:hover {
 
 /* price starts  */
 
-.demo {
+.gyeongheom {
     display: flex;
     position: relative;
     width: 100%;
@@ -219,7 +219,7 @@ header .navbar ul li a:hover {
     margin-bottom: 50px;
 }
 
-.pricingTable {
+.skills {
     border: 6px solid #e3e3e3;
     text-align: center;
     position: relative;
@@ -227,8 +227,8 @@ header .navbar ul li a:hover {
     text-overflow: none;
 }
 
-.pricingTable:before,
-.pricingTable:after {
+.skills:before,
+.skills:after {
     content: "";
     position: absolute;
     top: -2px;
@@ -239,7 +239,7 @@ header .navbar ul li a:hover {
     transition: all 0.5s ease 0s;
 }
 
-.pricingTable:before {
+.skills:before {
     border-right: 2px solid #0815c6b7;
     border-left: 2px solid #0815c6b7;
     ;
@@ -247,7 +247,7 @@ header .navbar ul li a:hover {
     transform-origin: 100% 0 0;
 }
 
-.pricingTable:after {
+.skills:after {
     border-bottom: 2px solid #0815c6b7;
     ;
     border-top: 2px solid#0815c6b7;
@@ -256,15 +256,15 @@ header .navbar ul li a:hover {
     transform-origin: 0 100% 0;
 }
 
-.pricingTable:hover:before {
+.skills:hover:before {
     transform: scaleY(1);
 }
 
-.pricingTable:hover:after {
+.skills:hover:after {
     transform: scaleX(1);
 }
 
-.pricingTable .pricingTable-header {
+.skills .skills-header {
     background: #0815c6b7;
     ;
     color: #fff;
@@ -272,18 +272,18 @@ header .navbar ul li a:hover {
     padding: 40px 0;
 }
 
-.pricingTable .heading {
+.skills .heading {
     font-size: 30px;
     font-weight: 600;
     margin: 0 0 5px 0;
 }
 
-.pricingTable .subtitle {
+.skills .subtitle {
     font-size: 14px;
     display: block;
 }
 
-.pricingTable .price-value {
+.skills .price-value {
     font-size: 72px;
     font-weight: 600;
     margin-top: 10px;
@@ -291,19 +291,19 @@ header .navbar ul li a:hover {
     display: inline-block
 }
 
-.pricingTable .pricing-content {
+.skills .pricing-content {
     list-style: none;
     padding: 0;
     margin-bottom: 30px;
 }
 
-.pricingTable .pricing-content li {
+.skills .pricing-content li {
     font-size: 16px;
     color: #7a7e82;
     line-height: 40px;
 }
 
-.pricingTable .read {
+.skills .read {
     display: inline-block;
     border: 2px solid #7a7e82;
     border-right: none;
@@ -316,14 +316,14 @@ header .navbar ul li a:hover {
     transition: all 0.3s ease 0s;
 }
 
-.pricingTable .read:hover {
+.skills .read:hover {
     border-color: #0815c6b7;
     ;
     color: #0815c6b7;
     ;
 }
 
-.pricingTable .read i {
+.skills .read i {
     font-size: 19px;
     margin-top: -10px;
     position: absolute;
@@ -332,12 +332,12 @@ header .navbar ul li a:hover {
     transition: all 0.3s ease 0s;
 }
 
-.pricingTable .read:hover i {
+.skills .read:hover i {
     right: 5px;
 }
 
-.pricingTable .read:before,
-.pricingTable .read:after {
+.skills .read:before,
+.skills .read:after {
     content: "";
     display: block;
     height: 30px;
@@ -347,23 +347,23 @@ header .navbar ul li a:hover {
     transition: all 0.3s ease 0s;
 }
 
-.pricingTable .read:before {
+.skills .read:before {
     bottom: -6px;
     transform: rotate(45deg);
 }
 
-.pricingTable .read:after {
+.skills .read:after {
     top: -6px;
     transform: rotate(-45deg);
 }
 
-.pricingTable .read:hover:before,
-.pricingTable .read:hover:after {
+.skills .read:hover:before,
+.skills .read:hover:after {
     border-left-color: #0815c6b7;
 }
 
 @media screen and (max-width: 990px) {
-    .pricingTable {
+    .skills {
         display: flexbox;
     }
 }
@@ -507,6 +507,9 @@ header .navbar ul li a:hover {
 .contact .row .content .info h3 i {
     padding-right: 1rem;
     color: var(--yellow);
+}
+#jongo_email{
+    text-transform: lowercase;
 }
 
 .top {
