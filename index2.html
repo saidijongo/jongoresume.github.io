@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jongo</title>
+
+    <meta name="description" content="Jongo portfolio" />
+
+    <meta
+      name="viewport"
+      charset="utf-8"
+      content="width=device-width, initial-scale, maximum-scale=1, minimum-scale=1"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <link id="theme-style" rel="stylesheet" type="text/css" href="" />
+  </head>
+  <body>
+    <section class="s1">
+      <div class="main-container">
+        <div class="greeting-wrap">
+          <h2>안녕하세요, 괜찮은 양반 김정고 Jongo입니다</h2>
+        </div>
+        <div class="intro-wrapper">
+          <div class="nav-wrapper">
+            <div class="dots-wrapper">
+              <div id="dot-1" class="browser-dot"></div>
+              <div id="dot-2" class="browser-dot"></div>
+              <div id="dot-3" class="browser-dot"></div>
+            </div>
+            <ul id="navigation">
+              <li><a href="#about-me">AboutMe</a></li>
+              <li><a href="post.html">Projects</a></li>
+              <li>
+                <a href="https://saidijongo.github.io/jongoresume.github.io/"
+                  >portfolio</a
+                >
+              </li>
+              <li><a href="#">Private2</a></li>
+
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="left-column">
+            <img id="profile-pik" src="haircut.jpg" alt="jongoPic" />
+            <h5 style="text-align: center; line-height: 0">
+              jongo Said - 김정고
+            </h5>
+
+            <div id="theme-option-wrapper">
+              <div data-mode="light" id="light-mode" class="theme-dot"></div>
+              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+              <div data-mode="green" id="green-mode" class="theme-dot"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+            </div>
+            <p id="settings-note">
+              *Color theme options will be saved for<br />
+              your next visit
+            </p>
+          </div>
+          <div class="right-column">
+            <div id="preview-shadow">
+              <div id="preview">
+                <div id="corner-tl" class="corner"></div>
+                <div id="corner-tr" class="corner"></div>
+                <h3>What I Do</h3>
+                <p>
+                  I am a dedicated electrical and electronics engineer working
+                  as a robotics hardware and software developer.
+                </p>
+                <div id="corner-br" class="corner"></div>
+                <div id="corner-bl" class="corner"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4 id="about-me">More About Me</h4>
+            <p>
+              I'm Jongo Said, living here in Seoul,South Korea. I did my
+              undergraduate program in Electrical and Electronics Engineering in
+              Yonsei University, graduated then came back to the same school for
+              master's degree.
+            </p>
+            <p>
+              I am very passionate in Robotics, Power Electronics, Renewable
+              Energy Sources (RES), Electric Vehicles (EVs) and Energy Storage
+              Sources (ESS).
+            </p>
+            <hr />
+            <h4>Top Expertise</h4>
+            <p>
+              Electrical & ELectronics :
+              <a target="_blank" href="newmyCV.docx" download
+                >Download Resume</a
+              >
+            </p>
+            <div id="skills">
+              <ul>
+                <li>- C++,Python,Matlab,R,ROS2</li>
+                <li>- Frontend Web Dev(HTML,CSS,JS)</li>
+                <li>- Report Writing</li>
+                <li>- Clean Wiring</li>
+                <li>- Microsoft Office</li>
+                <li>- English, Swahili, Korean</li>
+              </ul>
+              <ul>
+                <li>-Cooking</li>
+                <li>-Designing</li>
+                <li>-Team Work</li>
+                <li>-Leadership</li>
+                <li>-Organization</li>
+                <li>-Public speaking</li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-links">
+            <img id="social-image" src="snowme.jpg" alt="Korea" />
+            <h3>Let's Get Social</h3>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UC40ZPdFlQH18nn0Qji7KDPw"
+              >YouTube</a
+            >
+            <br />
+            <a target="_blank" href="https://twitter.com/saidijongo">Twitter</a>
+            <br />
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/said-jongo-9b452176/"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s1">
+      <div class="main-container">
+        <h3 style="text-align: center">
+          <a href="post.html">Click to see Projects</a>
+        </h3>
+        <div class="post-wrapper"></div>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <h3 id="contact" style="text-align: center">Get in Touch</h3>
+
+        <form
+          id="contact-form"
+          action="https://formsubmit.co/saidijongo@gmail.com"
+          method="POST"
+        >
+          <label>Name</label>
+          <input class="input-field" type="text" name="name" required />
+
+          <label>Subject</label>
+          <input class="input-field" type="text" name="subject" />
+
+          <label>Email</label>
+          <input class="input-field" type="text" name="email" required />
+
+          <label>Message</label>
+          <textarea class="input-field" name="name"></textarea>
+
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="footer-basic">
+        <footer>
+          <div class="social">
+            <a target="_blank" href="https://www.instagram.com/ssjongo/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/in/saidijongo/"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a target="_blank" href="https://twitter.com/saidijongo"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a target="_blank" href="https://www.facebook.com/saidijongo/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </div>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.yonsei.ac.kr/en_sc/intro/campus1.jsp"
+                >School</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/saidijongo/CocktailRobotBartender"
+                >Codes</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.smartgrid.yonsei.ac.kr/contact-1">Lab</a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.mudfestival.or.kr/festival/schedule/view?level=2&menuNo=32"
+                >Adventures</a
+              >
+            </li>
+          </ul>
+          <p class="copyright">Jongo ©2024</p>
+        </footer>
+      </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
